@@ -47,6 +47,10 @@ public class LivingThing {
         this.dead = dead;
     }
 
+    /**
+     * 敵のHPを読み込んでその値を返す。
+     * @return
+     */
     public int getHitPoint() {
         return hitPoint;
     }
@@ -55,6 +59,10 @@ public class LivingThing {
         this.hitPoint = hitPoint;
     }
 
+    /**
+     * 敵の攻撃力を読み込んでその値を返す。
+     * @return
+     */
     public int getAttack() {
         return attack;
     }
@@ -63,6 +71,10 @@ public class LivingThing {
         this.attack = attack;
     }
 
+    /**
+     * 敵の名前を読み込んでString型で返す。
+     * @return
+     */
     public String getName(){
         return name;
     }
